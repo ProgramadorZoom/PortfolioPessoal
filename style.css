@@ -1,0 +1,80 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                 
+}
+
+body{
+    background-color: #F0FFFF;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    padding: 20px 4%;
+}
+
+header >.interface{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #00FFFF;
+    transform: scale(1.20);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+
+    padding: 0 30px;
+}
+
+header .lcs-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00FFFF;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .lcs-contato button:hover{
+    box-shadow: 0px 0px 8px #00FFFF;
+}
+
+/* TOPO DO SITE */
+
+section.topo-site{
+    padding: 40px 4%;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-topo-site{
+    color: red;
+}
